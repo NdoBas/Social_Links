@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 12%);
+  color: hsl(0, 0%, 8%);
+  color: initial;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center; /* By default, the x-axis */
+  align-items: center; /* By default, the y-axis */
+  min-height: 100vh;
+  font-size: 15px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.card {
+  /* margin: auto; */
+  width: 400px;
+  padding: 40px;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* aspect-ratio: 1/2; */
+  object-fit: cover;
+  /* transform: rotate(270deg); */
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 18px;
+}
+h2 {
+  font-size: 18px;
+  margin-top: 12px;
+  color: hsl(75, 94%, 57%);
+}
+
+p {
+  margin-top: 24px;
+  font-size: 14px;
+}
+
+.card-body ul {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 18px;
+  list-style-type: none;
+}
+
+li {
+  width: 100%;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 14px 12px;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  font-size: 14px;
+  border-radius: 8px;
+}
